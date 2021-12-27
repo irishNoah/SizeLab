@@ -1,0 +1,228 @@
+/* 페이지 높이 및 너비 설정 */
+.sizelab-wrapper.wrapper-member.devicePC {
+    min-height: 100%;
+}
+
+.wrapper-member {
+    min-width: 320px;
+    height: 100%;
+    min-height: 100%;
+}
+
+.sizelab-wrapper {
+    min-width: 320px;
+}
+
+.n-member-area {
+    position: relative;
+    box-sizing: border-box;
+    max-width: 385px;
+    margin: 0 auto;
+    padding: 0 15px 0px 15px;
+}
+
+a, body, button, div, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, input, p, span {
+    margin: 0;
+    padding: 0;
+}
+
+/* body 영역 디자인 */
+body {
+    font-size: 14px;
+    font-family: '-apple-system',HelveticaNeue,Roboto,"Noto Sans KR",helvetica,Gulim,sans-serif;
+    line-height: 1.5;
+    color: #000;
+    background-color: #F2F2F2;
+}
+
+/* 콘테이너 영역 디자인 */
+.container {
+  background-color: white;
+  width : 100vw;
+  height: 100vh;      
+  display : flex;
+  flex-direction: column;
+  max-width: 450px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* header 영역 디자인 */
+.header {
+    height: 50px;
+    background: #fff;
+    line-height: 50px;
+    margin-top: 15%;
+}
+
+.header2 {
+    height: 50px;
+    background: #fff;
+    line-height: 50px;
+    margin-top: 3%;
+}
+
+.header__title {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.header__title2{
+    text-align: center;
+}
+header{
+    display: block;
+}
+
+.sizelab-wrapper.wrapper-member.devicePC .n-member-area .header__area {
+    display: block;
+    position: static;
+}
+
+.header__area {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    background-color: #fff;
+    line-height: 50px;
+    justify-content: center;
+}
+
+.header-tab {
+    display: flex;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    left: 0;
+    z-index: 500;
+    height: 45px;
+    background-color: #fff;
+}
+
+.sizelab-wrapper.wrapper-member.devicePC .n-member-area {
+    max-width: 375px;
+    min-height: 705px!important;
+    padding-top: 62px;
+}
+
+/* 입력창 디자인 */
+.n-input {
+    box-sizing: border-box;
+    box-sizing: border-box!important;
+    width: 100%;
+    height: 50px;
+    padding: 0 9px 0 9px;
+    border: 1px solid #e5e5e5;
+    /* background-color: #fff; */
+    font-size: 15px;
+    transition: border .2s ease-in-out;
+    -webkit-appearance: none;
+}
+
+.n-input2 {
+    box-sizing: border-box;
+    box-sizing: border-box!important;
+    width: 100%;
+    height: 50px;
+    padding: 0 9px 0 9px;
+    border: 1px solid #e5e5e5;
+    /* background-color: #fff; */
+    font-size: 15px;
+    transition: border .2s ease-in-out;
+    -webkit-appearance: none;
+}
+
+/* 버튼 디자인 */
+.n-btn {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    padding: 1px 10px 0 10px;
+    border: 1px solid #000;
+    font-size: 14px;
+    line-height: 47px;
+    color: #fff;
+    text-align: center;
+}
+
+.n-btn.btn-accent {
+    border-color: #000;
+    background-color: #000;
+}
+
+.joinBtnDiv.member-btn.botton{
+    color : black;
+    margin-bottom: 50px;
+  }
+
+.member-btn{
+    margin-bottom: 50px;
+}
+
+/* 간격 설정*/
+.n-member-area .login-form .n-btn, .n-member-area .n-input {
+    margin-top: 15px;
+
+}
+
+.n-member-area .login-form .login-help-feature .login-util>a {
+    margin: 0 3px;
+}
+.n-member-area .login-util>a {
+    display: inline-block;
+    margin: 0 6px;
+    padding: 5px;
+    color: #aaa;
+    vertical-align: middle;
+} 
+
+/* 버튼커서 설정 */
+button {
+    cursor: pointer;
+}
+
+
+.hr_style {
+    size: 10px;
+    color: black;
+}
+
+.redundancy_check{
+    cursor: pointer;border-color: #000;background-color: #000;color: white;
+    float:right;height: 30px;width:70px;
+}
+
+
+/* 콤보박스 디자인 */
+select { 
+    width: 100px; 
+    padding: .8em .5em; 
+    font-family: inherit; 
+    background: url(https://farm1.staticflickr.com/379/19928272501_4ef877c265_t.jpg) no-repeat 95% 50%; 
+    border: 1px solid #999; 
+    border-radius: 0px; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none; }
+
+.error {/* 서버 태스트를 위해 새로 추가 */
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+ }
+ 
+.success {/* 서버 태스트를 위해 새로 추가 */
+    background: #D4EDDA;
+    color: #40754C;
+    padding: 5px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
