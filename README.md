@@ -17,7 +17,7 @@ SizeLab은 AI를 활용한 의류 추천 시스템입니다.
 
 ## :tada: 시스템 구조
 
-![image](https://user-images.githubusercontent.com/80700537/180342693-2c0340c6-63ab-470f-bf93-24b6ebc85610.png)
+![2](https://user-images.githubusercontent.com/80700537/180348997-4ba31fe2-d007-4a96-b60a-a90793bdab76.JPG)
 
 :speech_balloon: [의류 정보 저장 모듈/피부톤 적합 색상 매칭 모듈/의류 추천 모듈/데이터베이스]로 구분<br>
 
@@ -38,7 +38,7 @@ __[4] 데이터베이스__<br>
 :heavy_check_mark: [사용자 정보/사이즈 정보/피부톤 정보/의류 정보] 저장<br>
 
 ## :pushpin: Usecase Diagram
-![image](https://user-images.githubusercontent.com/80700537/180343263-864ac039-e3ff-414a-9c07-ff8095c95ce8.png)
+![3](https://user-images.githubusercontent.com/80700537/180349264-ceedfffd-bcf5-49c1-a4a3-eb7de0e77883.JPG)
 
 __[1] Actor__<br>
 :heavy_check_mark: [비회원/회원/관리자/쇼핑몰 시스템]으로 구분<br>
@@ -54,7 +54,7 @@ __[3] Link__<br>
 :heavy_check_mark: 쇼핑몰 시스템과 회원은 의류 추천 Usecase를 통해 연결<br>
 
 ## :notebook_with_decorative_cover: E-R Diagram
-![image](https://user-images.githubusercontent.com/80700537/180343378-b18bfcbc-7cff-4b4f-b1c7-6cf5995cf4ee.png)
+![4](https://user-images.githubusercontent.com/80700537/180349360-1d16bdf9-eb63-41fe-b37e-d894f11f4c72.JPG)
 
 __[1] 사용자 정보(User Information) 테이블__<br>
 :heavy_check_mark: 사용자 이름, 닉네임, 이메일, 연락처, 성별 및 사이즈 정보 저장<br>
@@ -76,7 +76,7 @@ __[4] 의류 정보 테이블__<br>
 ## :monorail: 주요 기능 구현
 __[1] 사이즈 입력__
 
-![image](https://user-images.githubusercontent.com/80700537/180343523-996b22df-f11a-4c39-a9c9-9b90c13f0438.png)
+![5](https://user-images.githubusercontent.com/80700537/180349681-75df1df8-4dd0-40cf-9957-fef588b4223f.JPG)
 
 :heavy_check_mark: 회원가입 및 개인 정보 수정 시 사용자의 사이즈 선택 및 변경 가능<br>
 :heavy_check_mark: 선택된 사용자 사이즈가 추천 서비스 반영됨<br>
@@ -86,7 +86,7 @@ __[1] 사이즈 입력__
 
 __[2] 피부톤 선택__
 
-![image](https://user-images.githubusercontent.com/80700537/180343555-f27bcc23-351a-4482-b830-22085376a9e6.png)
+![6](https://user-images.githubusercontent.com/80700537/180349697-bf412265-4949-4c24-8711-ef4857880292.JPG)
 
 :heavy_check_mark: 회원가입 및 개인 정보 수정 시 사용자의 피부톤 선택 및 변경 가능<br>
 :heavy_check_mark: 피부톤은 기본적으로 웜톤과 쿨톤으로 구분됨<br>
@@ -97,16 +97,16 @@ __[2] 피부톤 선택__
 
 __[3] 의류 추천__
 
-![image](https://user-images.githubusercontent.com/80700537/180343674-29f19693-3008-4661-b6fc-ea4aaee6bfde.png)
+![7](https://user-images.githubusercontent.com/80700537/180349717-775af66d-b010-402a-88cd-0acbf9c81277.JPG)
 
 :heavy_check_mark: 의류 추천 위해 웹 크롤링 시행. 이를 통해 얻은 의류 정보는 주기적으로 엑셀로 변환 및 DB에 저장<br>
 :heavy_check_mark: 위 이미지는 엑셀로 변환된 의류 정보에 해당<br>
 
-![image](https://user-images.githubusercontent.com/80700537/180343700-4abc7aed-cfcd-41fe-abda-70b61ac7b8f2.png)
+![8](https://user-images.githubusercontent.com/80700537/180349737-da46373a-7945-497d-9461-fdf4608b5c14.JPG)
 
 :heavy_check_mark: 크롤링된 의류 이미지는 위 이미지처럼 색상 도출 AI 프로그램에 대입하여 이미지에서 도출되는 2가지 색상을 얻음<br>
 
-![image](https://user-images.githubusercontent.com/80700537/180343725-a9247b1c-752f-43ee-90e2-2112649914ae.png)
+![9](https://user-images.githubusercontent.com/80700537/180349760-1c61b127-cda2-456b-9436-1a85ed11f0ed.JPG)
 
 :heavy_check_mark: 참고로 색상은 138개로 구분되며, 색상에 대한 정보는 별도의 엑셀 파일에 저장되어 있음 <br>
 
@@ -118,11 +118,11 @@ __[3] 의류 추천__
 :heavy_check_mark: 처음부터 가장 많이 차지하는 1가지 색상만 도출 시 의류 색상이 아닌 배경 색상을 얻는 문제가 생길 수 있음<br>
 :heavy_check_mark: 최종 선정된 의류 색상이 DB에 반영<br>
 
-![image](https://user-images.githubusercontent.com/80700537/180343843-5ca40b09-42b3-4d5d-9e47-0de337fe8012.png)
+![1](https://user-images.githubusercontent.com/80700537/180350135-8c560e6d-2645-4422-b9bf-e2c2b3b2e4a7.JPG)
 
 :heavy_check_mark: 위 이미지와 같이 DB에 저장된 의류 색상이 피부톤 종류 중 무엇에 적합한가를 매칭시켜 해당 색상에 어울리는 피부톤 종류의 결과를 DB에 저장<br>
 
-![image](https://user-images.githubusercontent.com/80700537/180343880-264d28c9-f7f0-4a33-bdcc-3213fb8b20e8.png)
+![2](https://user-images.githubusercontent.com/80700537/180350146-4fa0c5cf-9ecf-4e42-a34c-ef8662861f78.JPG)
 
 :heavy_check_mark: 위 이미지와 같이 사용자의 사이즈와 피부톤을 DB에 저장되어 있는 각 의류의 사이즈와 의류 색상에 적합한 피부톤과 비교하여 일치한 것이 있다면 이를 사용자에게 추천<br>
 
