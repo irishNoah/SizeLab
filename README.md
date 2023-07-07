@@ -9,6 +9,7 @@
 - MySQL 활용 능력
   - CRUD / Join 등
 - PHP 활용 능력
+  - 비록 PHP를 사용했으나, Back-end에 대한 공부를 많이 할 수 있었음
 - HTML+CSS+JS 기초 능력
 - 커뮤니케이션 능력
 
