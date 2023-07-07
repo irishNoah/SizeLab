@@ -1,4 +1,4 @@
-- [프로젝트 주요 코드 설명 READ.MD로 이동하기](https://github.com/irishNoah/SizeLab/tree/main/005)%20mainCodeReview)
+- [프로젝트 주요 코드 설명 READ.MD로 이동하기](https://github.com/irishNoah/SizeLab/tree/main/005_mainCodeReview)
 
 # :blue_book: SizeLab 프로젝트 소개
 - SizeLab은 PHP와 AI를 기반으로 한 의류 추천 시스템입니다.
