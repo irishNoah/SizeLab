@@ -1,6 +1,6 @@
 - [프로젝트 전체 설명 REAMD.MD 이동](https://github.com/irishNoah/SizeLab)
 
-# 🔥 프로젝트 주요 메소드
+# 🔥 프로젝트 주요 코드 목록
 ## mysqli_connet() 
 ![image](https://github.com/irishNoah/SizeLab/assets/80700537/fe8fa326-f92a-4d7f-9281-55e7a4ee8200)
 - mysqli_connet() 함수를 활용해 DB에 연동
